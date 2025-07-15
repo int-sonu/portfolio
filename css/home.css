@@ -12,7 +12,7 @@
 }
 
 body {
-    background: lightblue;
+    background: linear-gradient(to right, skyblue, white);
     margin: 0px;
 }
 

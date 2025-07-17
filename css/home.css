@@ -146,7 +146,7 @@ h4 {
 }
 .project-grid {
  display: grid;
-    grid-template-columns: auto auto;
+      grid-template-columns: auto auto;
     padding: 20px;
     column-gap: 40px;
     align-items: center;

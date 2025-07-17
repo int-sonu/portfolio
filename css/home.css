@@ -88,7 +88,7 @@ nav a {
     font-size: 20px;
     background-color: rgba(128, 128, 128, 0.2);
     padding: 40px;
-    margin: 80px auto;
+    margin: 0px auto;
     max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -102,12 +102,19 @@ p {
     display: block;
 }
 
-.linkedinimg {
+.linkimage{
 
     width: 20px;
-    height: auto;
-    border-radius: 10%;
-    margin-left: 580px;
+    color:black;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin: auto;
+    padding:5px;
+    cursor: pointer;
+    text-decoration: none;
+    
 }
 
 
@@ -163,7 +170,7 @@ footer {
 .footer1 {
   color: white;
   font-size: 20px;
-  margin-right:60%;
+  margin-right:auto;
 }
 
 .footer-icons {
@@ -177,13 +184,13 @@ footer {
   list-style-type: none;
   padding: 0;
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .qualification-list li {
   border-left: 4px solid #444;
   padding: 10px 20px;
-  margin: 20px 0;
+  margin:0px;
   position: relative;
 }
 
@@ -211,12 +218,12 @@ footer {
 
 .contact{
    color: black;
- font-size: 20px;
-   margin-left:25%;
+  font-size: 20px;
   background-color: white;
-  text-align: center;
-  justify-content: center;
-  display: flex;
+   align-items: center;
+    justify-content: center;
+    display:flex;
+    margin: auto;
   width: 60%;
   height: 20%;
 }
@@ -287,8 +294,9 @@ footer {
   }
 
   .footer1 {
-    margin: 0;
+    margin: 0px;
     text-align: center;
   }
+  
 }
 
